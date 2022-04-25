@@ -1,0 +1,41 @@
+Capa de presentación: todas las clases relacionadas con la capa de presentación.
+
+Capa de datos: todas las clases relacionadas con la capa de datos.
+
+Capa de Dominio: todas las clases relacionadas con la capa de dominio.
+
+Compilar_y_Generar_Ejecutable.bat: Script para windows que compila todos los archivos necesarios para posteriormente crear todos el jar directamente dentro de la carpeta EXE y elimina los archivos.class
+                            ya que una vez generado el jar, ya no los necesitamos.
+
+Compilar_y_Generar_Ejecutable.sh: Script para linux que compila todos los archivos necesarios para posteriormente crear todos el jar directamente dentro de la carpeta EXE y elimina los archivos.class
+                            ya que una vez generado el jar, ya no los necesitamos.
+
+lib: Directorio que contiene todas las librerias externas usadas.
+
+Makefile: Archivo Makefile para linux el cual nos permite compilar, ejecutar y eliminar los archivos.class temporales.
+
+/////////////////////////////////////////////////////
+
+Como comiplar y ejecutar segun el sistema operativo:
+
+-Linux:
+Para linux tienes 2 opciones:
+	Opción 1)
+		Paso 1: Al descargar el archivo, el script Compilar_y_Generar_Ejecutable.sh vendrá sin permisos de ejecución, deberás introducir el siguiente comando $chmod +x Compilar_y_Generar_Ejecutable.sh 
+		para poder ejecutar el paso 2.
+
+		Paso 2:Ejecutar el ascript Compilar_y_Generar_Ejecutable.sh mediante el comando $./Compilar_y_Generar_Ejecutable.sh . Este script va a compilar toda la aplicación y te va agenerar el ejecutable
+	  	el cual puedes encontrar en EXE/Main_Jar/Main_Linux.jar.
+
+		Paso 3:Ejecutar el archivo jar ejecutable disponible en el directorio EXE/Main_Jar/Main_Linux.jar mediante el comando $java -jar Main_Linux.jar.
+	
+	Opción 2)
+		Makefile: Ejecutando el comando $make help, puedes observar las distintas opciones que tienes para compilar, ejecutar y borrar archivos .class temporales de nuestra aplicación completa.
+
+Para windows tienes 1 opción:
+	Opción 1)
+		Paso 1: Ejecutar el script Compilar_y_Generar_Ejecutable.bat mediante doble click.Este script va a compilar toda la aplicación y te va agenerar el ejecutable
+	  	el cual puedes encontrar en EXE/Main_Jar/Main_Windows.jar además de borrar los archivos .class temporales.
+		
+		Paso 2: Hacer doble click en el archivo EXE/Main_Jar/Main_Windows.jar para ejecutar la aplicación entera.
+

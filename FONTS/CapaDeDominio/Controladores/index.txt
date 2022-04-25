@@ -1,0 +1,7 @@
+CtrlDominio: Controlador principal de la capa de dominio, que se comunica con capa de presentación (futuramente) y con el resto de constroladores de la capa de dominio.
+
+CtrlDominioComDatos: Controlador que se comunica con la capa de datos y recibe instrucciones de CtrlDominio.
+
+CtrlStringConversion: Controlador que convierte a strings los diferentes objetos con datos mediante diferentes metodos.
+
+CtrlDominioRecomendaciones: Controlador que ejecuta llamadas a algoritmos y recibe ordenes de CtrlDominio. Este se encarga de hacer las llamadas del algoritmo principal del programa.

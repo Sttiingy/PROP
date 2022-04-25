@@ -1,0 +1,9 @@
+AdaptadorresGestores: Contiene las interfaces de las clases de la capa de datos, que actuan como adaptadores para no accederla directamente.
+
+ActiveUser: Clase responsable de almacenar el usuario activo del programa.
+
+GestorIO: Clase responsable de leer y escribir archivos.
+
+GestorItem: Clase responsable de almacenar los items del sistema.
+
+GestorUsuario: Clase responsable de almacenar los usuarios del sistema.

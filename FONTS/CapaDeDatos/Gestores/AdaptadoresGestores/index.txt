@@ -1,0 +1,9 @@
+Aqui se encuentran los adaptadores de gestores, interfaces que sirven para forzar a las clases que la implementan a implementar las funciones necesarias.
+
+AdaptadorUsuarioActivo: Interfaz de ActiveUser.
+
+AdaptadorGestorIO: Interfaz de GestorIO.
+
+AdaptadorGestorItem: Interfaz de GestorItem.
+
+AdaptadorGestorUser: Interfaz de GestorUser.

@@ -1,0 +1,13 @@
+VistaCreaUsuario: Vista de la ventana CreaUsuario.
+
+VistaEditarPerfil: Vista de la ventana EditarPerfil.
+
+VistaHome: Vista de la ventana Home.
+
+VistaMenuInicial: Vista de la ventana MenuInicial.
+
+VistaMisItems: Vista de la ventana MisItems.
+
+VistaPerfilItem: Vista de la ventana PerfilItem.
+
+VistaTest: Vista de la ventana Test.

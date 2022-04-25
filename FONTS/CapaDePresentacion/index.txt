@@ -1,0 +1,3 @@
+Vistas: Contiene las vistas del programa responsables del apartado gráfico.
+
+Controladores: Contiene los controladores responsables de la comunicacion con la capa de dominio.

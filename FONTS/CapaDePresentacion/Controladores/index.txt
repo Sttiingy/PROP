@@ -1,0 +1,15 @@
+CtrlCreaUsuario: Controlador encargado de comunicar la VistaCreaUsuario con el CtrlPresentacion.
+
+CtrlEditarPerfil: Controlador encargado de comunicar la VistaEditarPerfil con el CtrlPresentacion.
+
+CtrlHome: Controlador encargado de comunicar la VistaHome con el CtrlPresentacion.
+
+CtrlMenuInicial: Controlador encargado de comunicar la VistaMenuInicial con el CtrlPresentacion.
+
+CtrlMisItems: Controlador encargado de comunicar la VistaMisItems con el CtrlPresentacion.
+
+CtrlPerfilItem: Controlador encargado de comunicar la VistaPerfilItem con el CtrlPresentacion.
+
+CtrlTest: Controlador encargado de comunicar la VistaTest con el CtrlPresentacion.
+
+CtrlPresentacion: Controlador encargado de comunicar los controladores de la capa de presentacion con el CtrlDominio.
