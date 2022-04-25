@@ -1,0 +1,3 @@
+Main_jar: Aqui se encuentra la carpeta con los ejecutables del programa (segun su sistema operativo), Main_jar
+
+Jocs_assaig: carpeta donde se encuentran todos los juegos de ensayo con los que probar el programa de diferentes formas.
